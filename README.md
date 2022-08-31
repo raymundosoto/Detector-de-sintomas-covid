@@ -1,4 +1,4 @@
-# detector-de-sintomas-COVID
+# Detector-de-sintomas-COVID
 
 # Resumen
 
