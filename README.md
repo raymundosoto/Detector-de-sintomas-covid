@@ -18,11 +18,13 @@ Este repositorio contiene la información necesaria para crear un prototipo que 
 - Arduino IDE (https://www.arduino.cc/en/software) corriendo en Ubuntu
 - Mosquitto (https://mosquitto.org/download/) corriendo en Ubuntu
 - Node-red (https://nodered.org/docs/getting-started/local)
-- Programa para conectar sensor MAX30102 y LMX90614 al ESP32 y enviar datos al broker local
+- Programa para conectar sensor MAX30102 y LMX90614 al ESP32 y enviar datos al broker local 
+[Programa en  arduino](https://github.com/raymundosoto/Detector-de-sintomas-covid/tree/main/CREACIon%20JSON%20MQTT%20MAX30102%20MLX/ESP21CAM-MQTT-MLX90614-MAX30102-JSON)
 - MySQL para crear la base de datos local
 - Flow de node-red para adquisición, envío y visualización de datos en el broker local y de la base de datos 
-- Biblioteca DHT11 de adafruit en arduino [DHT11](https://github.com/adafruit/DHT-sensor-library)
+- Biblioteca MAX3010x de sparkFun [link biblioteca](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
 - Biblioteca [PubSubClient](https://pubsubclient.knolleary.net/) en arduino
+- Biblioteca LMX90614 [Link de la biblioteca](https://github.com/adafruit/Adafruit-MLX90614-Library)
 
 # Instruccciones
 ![imagen](https://user-images.githubusercontent.com/72757419/187573107-653a4561-568b-4068-9646-10dc60edecbc.png)
