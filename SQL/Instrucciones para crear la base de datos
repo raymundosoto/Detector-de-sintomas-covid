@@ -1,6 +1,27 @@
-Instalar my sql server
+# Bases de datos - Detector de sintomas COVID}
+
+1. Instalar mysql server
+    - sudo apt update
+    - sudo apt install mysql-server
+2. Entrar a mysql
+    - sudo mysql
+3. Crear una nueva base de datos
+    - CREATE DATABASE detectorsintomas;
+4. Seleccionar base de datos
+    - use detectorsintomas;
+5. Crear una tabla llamada registro que contenga todos los campos necesarios
+    - CREATE TABLE registro (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, fecha
+TIMESTAMP DEFAULT CURRENT_TIMESTAMP, nombre CHAR (248) NOT NULL, correo CHAR (248) NOT NULL, temp FLOAT(4,2) NOT NULL, bpm INT(1) UNSIGNED NOT NULL, sp02 INT(1) UNSIGNED NOT NULL, protodiagnostico CHAR (248) NOT NULL);
 
 
-2 Entrar a mysql
 
-    sudo  mysql
+Para este ejercicio necesesitamos lo siguiente
+- Base de datos
+	- ID
+	- Fecha
+	- Nombre
+	- Correo
+	- Temperatura
+	- BPM
+	- SPO2
+	- Protodiagnostico
