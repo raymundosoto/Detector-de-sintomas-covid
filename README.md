@@ -1,5 +1,10 @@
 # Detector-de-sintomas-COVID
 
+# Introducción
+
+
+A raíz de la pandemia de COVID-19, la implementación de medidas para evitar la propagación de la infección provocó que la inventiva de los ingenieros, tecnológos y científicos se pusieran en marcha para diseñar dispositivos que permitieran la medición de parámetros de salud que determinaran si una persona estaba infectada o libre de virus. Los parámetros que se usan para determinar de forma rápida la probable infección (sin usar una prueba PCR) son la temperatura corporal y la saturación de oxigenación en la sangre, estos parámetros si no están dentro de un rango aceptable dan una idea sobre la salud de las personas y por lo tanto se restringe el acceso a sitios públicos o donde haya hacinamiento. En este ejercicio se crea un prototipo que mide la saturación de oxigeno en la sangre, la temperatura corporal y el ritmo cardíaco con ayuda de 2 sensores: el max30102 y el MLX90614. 
+
 # Resumen
 
 Este repositorio contiene la información necesaria para crear un prototipo que detecta los sintomas de COVID, el prototipo consta de un detector de oxigenación y ritmo cardíaco MAX30102 y un sensor de temperatura LMX90614. El sistema de adquisición de datos está compuesto por los sensores conectados a un microcontrolador ESP32CAM (programado en arduino) que se conecta a internet vía WIFI, los datos recolectados se almacenan en una base de datos local MySQL y enviados a un flow de node-red mediante el protocolo MQTT.  
