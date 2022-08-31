@@ -5,6 +5,13 @@
 Este repositorio contiene la información necesaria para crear un prototipo que detecta los sintomas de COVID, el prototipo consta de un detector de oxigenación y ritmo cardíaco MAX30102 y un sensor de temperatura LMX90614. El sistema de adquisición de datos está compuesto por los sensores conectados a un microcontrolador ESP32CAM (programado en arduino) que se conecta a internet vía WIFI, los datos recolectados se almacenan en una base de datos local MySQL y enviados a un flow de node-red mediante el protocolo MQTT.  
 
 # Material necesario
+- Sensor MAX30102
+- Sensor LMX90614 
+- Controlador ESP32cam
+- Modulo Adaptador usb a serial ttl ftdi
+- Cables jumper
+- Protoboard
+- Cable serial
 
 # Software necesario
 - Ubuntu 22 (https://ubuntu.com/download/desktop)
