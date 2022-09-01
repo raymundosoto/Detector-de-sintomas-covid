@@ -57,6 +57,7 @@ Dashboard parcial
 
 Se modificó para incluir un botón de diagnóstico y se cambió el color del tema
 ![imagen](https://user-images.githubusercontent.com/72757419/188022660-a0a4eda7-2abb-462c-957a-b24e6403c5fa.png)
+https://user-images.githubusercontent.com/72757419/188022660-a0a4eda7-2abb-462c-957a-b24e6403c5fa.png=100x100
 
 # Evidencia
 
