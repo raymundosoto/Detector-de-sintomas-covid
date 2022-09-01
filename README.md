@@ -53,9 +53,11 @@ Se muestra resultado parcial de la conexión del sensor de ritmo cardíaco y sat
  ![imagen](https://user-images.githubusercontent.com/72757419/188006328-121bc36c-6858-41d4-9767-5b65328300f3.png)
 
 Dashboard parcial 
+
 <img src="https://github.com/raymundosoto/Detector-de-sintomas-covid/blob/main/dashboard1.png" width="324" height="324">
 
 Se modificó para incluir un botón de diagnóstico y se cambió el color del tema
+
 <img src="[https://stackoverflow.com/questions/24383700/icon.jpg](https://github.com/raymundosoto/Detector-de-sintomas-covid/blob/main/dashboard2.png)" width="324" height="324">
 
 
