@@ -46,6 +46,16 @@ Se muestra resultado parcial de la conexión del sensor de ritmo cardíaco y sat
 
 ![imagen](https://user-images.githubusercontent.com/72757419/187573484-3e68f795-2336-47c3-8e7b-0e598da07c00.png)
 
+ ## Circuito con los dos sensores conectados y funcionando
+ ![imagen](https://user-images.githubusercontent.com/72757419/188005261-45574a60-0b0b-4210-af0f-2ba0a6f4e2ca.png)
+ 
+ Envío de datos a MQTT de forma local y el monitor serial de arduino
+ ![imagen](https://user-images.githubusercontent.com/72757419/188006328-121bc36c-6858-41d4-9767-5b65328300f3.png)
+
+Dashboard parcial 
+![imagen](https://user-images.githubusercontent.com/72757419/188005063-4b5c6306-933e-4950-9f5f-68276900e4bd.png)
+
+
 
 # Evidencia
 
