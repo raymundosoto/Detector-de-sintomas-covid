@@ -55,7 +55,8 @@ Se muestra resultado parcial de la conexión del sensor de ritmo cardíaco y sat
 Dashboard parcial 
 ![imagen](https://user-images.githubusercontent.com/72757419/188005063-4b5c6306-933e-4950-9f5f-68276900e4bd.png)
 
-
+Se modificó para incluir un botón de diagnóstico y se cambió el color del tema
+![imagen](https://user-images.githubusercontent.com/72757419/188022660-a0a4eda7-2abb-462c-957a-b24e6403c5fa.png)
 
 # Evidencia
 
