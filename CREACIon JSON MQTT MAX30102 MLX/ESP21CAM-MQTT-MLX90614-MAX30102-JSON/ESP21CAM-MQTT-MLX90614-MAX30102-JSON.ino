@@ -209,7 +209,7 @@ void loop() {
     timeLastMQTT = timeNow; // Actualización de seguimiento de tiempo
 
     //Se construye el string correspondiente al JSON que contiene 3 variables
-    String json = "{\"hr\"=" + String (heartRate) + ",\"hrv\":" + String (validHeartRate) + ",\"spo2\":" + String (spo2) + ",\"spo2v\":"+ String (validSPO2) + "}";
+    String json = "{\"hr\":" + String (heartRate) + ",\"hrv\":" + String (validHeartRate) + ",\"spo2\":" + String (spo2) + ",\"spo2v\":"+ String (validSPO2) + "}";
     Serial.println(json); // Se imprime en monitor solo para poder visualizar que el string esta correctamente creado
     int str_len = json.length() + 1;//Se calcula la longitud del string
     char char_array[str_len];//Se crea un arreglo de caracteres de dicha longitud
