@@ -289,7 +289,7 @@ void callback(char* topic, byte* message, unsigned int length) {
 void reconnect() {
   // Bucle hasta lograr conexión
   while (!client.connected()) { // Pregunta si hay conexión
-    Serial.print("Tratando de contectarse...");
+    Serial.print("Tratando de conectarse...");
     // Intentar reconexión
     if (client.connect("ESP32Client")) { //Pregunta por el resultado del intento de conexión
       Serial.println("Conectado");
