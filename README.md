@@ -26,6 +26,7 @@ Este repositorio contiene la información necesaria para crear un prototipo que 
 - Programa para conectar sensor MAX30102 y LMX90614 al ESP32 y enviar datos al broker local 
 [Programa en  arduino](https://github.com/raymundosoto/Detector-de-sintomas-covid/tree/main/CREACIon%20JSON%20MQTT%20MAX30102%20MLX/ESP21CAM-MQTT-MLX90614-MAX30102-JSON)
 - MySQL para crear la base de datos local [Instrucciones de creación de base de datos](https://github.com/raymundosoto/Detector-de-sintomas-covid/blob/main/SQL/Instrucciones%20para%20crear%20la%20base%20de%20datos)
+- Flow de node red [Flow de node red](https://github.com/raymundosoto/Detector-de-sintomas-covid/blob/main/Flow%20node-red/flows_8_detector_covid_publicacion_BBDD.json)
 - Flow de node-red para adquisición, envío y visualización de datos en el broker local y de la base de datos 
 - Biblioteca MAX3010x de sparkFun [link biblioteca](https://github.com/sparkfun/SparkFun_MAX3010x_Sensor_Library)
 - Biblioteca [PubSubClient](https://pubsubclient.knolleary.net/) en arduino
