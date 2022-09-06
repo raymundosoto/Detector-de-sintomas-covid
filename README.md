@@ -69,6 +69,9 @@ Flow de Node-red
 Dashboard final
 ![imagen](https://user-images.githubusercontent.com/72757419/188715815-6996f098-c3d1-401f-b151-3d5a51580fc2.png)
 
+Inserción de datos en la base de datos
+![imagen](https://user-images.githubusercontent.com/72757419/188720846-3fb17dbb-3e1e-4e76-859f-feac6d70cf50.png)
+
 # Evidencia
 
 # Conclusiones
