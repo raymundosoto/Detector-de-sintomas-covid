@@ -32,10 +32,19 @@ Este repositorio contiene la información necesaria para crear un prototipo que 
 - Biblioteca [PubSubClient](https://pubsubclient.knolleary.net/) en arduino
 - Biblioteca LMX90614 [Link de la biblioteca](https://github.com/adafruit/Adafruit-MLX90614-Library)
 
-# Instruccciones
+# Diagrama de flujo para el funcionamiento
 ![imagen](https://user-images.githubusercontent.com/72757419/187573107-653a4561-568b-4068-9646-10dc60edecbc.png)
 
-# Funcionamiento
+# Instrucciones a tomar en cuenta para la configuración y el correcto funcionamiento
+
+- Realizar las conexiones del circuito mostrado anteriormente usando la ESP32 CAM y los 2 sensores. Como usan el protocolo I2C hay que conectar ambos sensores en paralelo y usando las resistencias pull-up.
+ - Cargar el programa en el ESP32 usando el IDE de arduino
+ - Configurar correctamente los tópicos de MQTT donde se publicarán los datos de los sensores tanto en el programa como en los nodos de node-red
+ - Crear la base de datos de mysql con los campos adecuados, estos están relacionados con las variables globales creadas en los nodos función de node-red
+ - El nodo de la base de datos debe tener un nombre de usuario y contraseña, hay que crearlo previamente en la terminal de Ubuntu y darle los privilegios para poder hacer el query
+ - Los nodos función del flow deben estar programados correctamente para poder guardar las variables globales y enviarlas hacía la base de datos de mysql.
+ - Los nodos nombre del paciente y correo deben ser strings.
+ - El nodo guardar en base de datos debe tener configurado el msg.topic para enviar la instrucción a la base de datos que guardara las lecturas de los sensores y los datos del paciente.
 
 # Resultados
 Creación y uso de la base de datos en MySQL
