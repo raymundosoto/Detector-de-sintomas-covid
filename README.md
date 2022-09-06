@@ -45,6 +45,8 @@ Este repositorio contiene la información necesaria para crear un prototipo que 
  - Los nodos función del flow deben estar programados correctamente para poder guardar las variables globales y enviarlas hacía la base de datos de mysql.
  - Los nodos nombre del paciente y correo deben ser strings.
  - El nodo guardar en base de datos debe tener configurado el msg.topic para enviar la instrucción a la base de datos que guardara las lecturas de los sensores y los datos del paciente.
+ - Se agrega un nodo de daudio para que una voz emita el protodiagnóstico
+ - Se agrega un nodo email para recibir por email el protodiágnostico
 
 # Resultados
 Creación y uso de la base de datos en MySQL
@@ -84,6 +86,8 @@ Inserción de datos en la base de datos
 # Evidencia
 
 # Conclusiones
+
+En este ejercicio se usaron todos los conocimientos adquiridos a lo largo del curso: conexión de sensores, programación de los sensores, uso del IDE de arduino, funcionamiento de node-red, creación y uso de base de datos, envío de datos a tráves de MQTT, manejo de versiones con github y documentación de proyectos. Este ejercicio me ha llevado a profundizar en el manejo de todas estas tecnologías para crear un prototipo funcional de un dispositivo IoT sin duda que nos deja un gran sabor de boca el poder construir estos sistemas. Queda mucho por aprender y aplicar.
 
 # Bibliografía
 
