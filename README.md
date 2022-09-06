@@ -63,9 +63,16 @@ Se modificó para incluir un botón de diagnóstico y se cambió el color del te
 <img src="https://github.com/raymundosoto/Detector-de-sintomas-covid/blob/main/dashboard2.png" width=50% height=50%>
 </p>
 
+Flow de Node-red
+![imagen](https://user-images.githubusercontent.com/72757419/188715635-0cf0204b-2c6b-42f1-8929-8cfa18d2adb6.png)
+Dashboard final
+![imagen](https://user-images.githubusercontent.com/72757419/188715815-6996f098-c3d1-401f-b151-3d5a51580fc2.png)
+
 # Evidencia
 
 # Conclusiones
 
 # Bibliografía
 
+- Biblioteca adafruit MLX90614. (2021, agosto). Github. Recuperado 6 de septiembre de 2022, de https://github.com/adafruit/Adafruit-MLX90614-Library
+- Maximintegrated. (s/f). MAX30102 High-Sensitivity Pulse Oximeter and Heart-Rate Sensor for Wearable Health. https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf
