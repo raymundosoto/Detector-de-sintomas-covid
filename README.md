@@ -37,7 +37,7 @@ Este repositorio contiene la información necesaria para crear un prototipo que 
 
 # Instrucciones a tomar en cuenta para la configuración y el correcto funcionamiento
 
-- Realizar las conexiones del circuito mostrado anteriormente usando la ESP32 CAM y los 2 sensores. Como usan el protocolo I2C hay que conectar ambos sensores en paralelo y usando las resistencias pull-up.
+- Realizar las conexiones del circuito mostrado anteriormente usando la ESP32 CAM y los 2 sensores. Como usan el protocolo I2C hay que conectar ambos sensores en paralelo y usando las resistencias pull-up [Link al código mostrando las conexiones](https://github.com/raymundosoto/Detector-de-sintomas-covid/blob/main/CREACION%20JSON%20MQTT%20MAX30102%20MLX/ESP21CAM-MQTT-MLX90614-MAX30102-JSON/ESP21CAM-MQTT-MLX90614-MAX30102-JSON.ino)
  - Cargar el programa en el ESP32 usando el IDE de arduino
  - Configurar correctamente los tópicos de MQTT donde se publicarán los datos de los sensores tanto en el programa como en los nodos de node-red
  - Crear la base de datos de mysql con los campos adecuados, estos están relacionados con las variables globales creadas en los nodos función de node-red
