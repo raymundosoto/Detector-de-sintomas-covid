@@ -1,0 +1,22 @@
+[
+    {
+        "id": "f234575ef9c951f9",
+        "type": "function",
+        "z": "36dab2dd9a5ca198",
+        "name": "diagnosticar",
+        "func": "if ((global.get (\"temp\") > 35.5 && global.get (\"temp\") < 36.5) && (global.get (\"hr\") > 60 && global.get (\"hr\") <90 ) && (global.get (\"spo2\") > 90))\n{\n    msg.payload = \"Signos vitales normales\";\n    global.set(\"protodiagnostico\",msg.payload);\n    return msg;\n} else {\n    msg.payload = \"Signos vitales alterados, se recomienda ir con un médico\";\n    global.set(\"protodiagnostico\",msg.payload);\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 420,
+        "wires": [
+            [
+                "c56dbc5657602209",
+                "bc2e6b1d18c8a6c4"
+            ]
+        ]
+    }
+]
